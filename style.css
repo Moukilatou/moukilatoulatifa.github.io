@@ -72,6 +72,10 @@ main img{
     box-shadow: 2px 2px 10 px rgba(0,0,0,0.1);
 }
 footer{
+text-align: center;
+paddind:20px;
+margin-yop: 40px;
+font-size:0.9em;
  color:blue;
 }
 
