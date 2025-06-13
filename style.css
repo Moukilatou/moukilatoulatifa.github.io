@@ -1,0 +1,74 @@
+/*Arrière plan global*/
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*En-tête*/
+header{
+    background-color: #004080;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    position:sticky;
+    top:0;
+    z-index: 1000;
+}
+/*Titre principal*/
+header h1{
+    margin:0;
+}
+/*Menu de navigation*/
+nav{
+    margin-top: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    
+}
+nav a:hover{
+    background-color: #0066cc;
+}
+/*Zone principale*/
+main{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+/*Titres*/
+h1,h2,h3,h4,h5{
+    color: #004080;
+}
+/*Formulaire*/
+form input,form select{
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box
+}
+form input[type="submit"]{
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+form input[type="submit"]:hover{
+    background-color: #0066cc;
+}
+/*Galerie photos*/
+main img{
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10 px rgba(0,0,0,0.1);
+}
+

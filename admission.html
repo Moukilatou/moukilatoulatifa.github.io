@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Ecole Supérieure d'Informatique</title>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+ <main>
+    
+
+
+    <h2><strong>Formulaire d'admission de l'ESI</strong></h2>
+
+
+    
+
+    <form>
+        <label><strong>Nom:</strong><input type="text"name="nom"required></label><br>
+        <label><strong>Prénom:</strong><input type="text"name="prenom"required></label><br>
+        <label><strong>Nationalité:</strong><input type="text"name="nationalité"required></label><br>
+        
+        <label><strong>Email:</strong><input type="email"name="email"required></label><br>
+        <label><strong>Téléphone:</strong><input type="number"name="téléphone"required></label><br>
+        <label><strong>Motivation:</strong><input type="text"name="Motivation"required></label><br>
+        <label><strong>Adresse:</strong><input type="text"name="adresse"required></label><br>
+        
+
+    <form id="sexForm">
+    <label for="sex"><strong>Sélectionnez votre sexe :</strong></label>
+    <select id="sex" name="sex">
+        <option value="male">Masculin</option>
+        <option value="female">Féminin</option>
+    </select>
+    <br><br>
+    <label><strong>Diplôme:</strong><input type="text"name="diplôme"required></label><br>
+        <label><strong>Département choisi:</strong>
+            <select>
+                <option>Ingenierie de système d'information</option>
+                <option>Ingenierie de réseaux et systèmes</option>
+                </select>
+        </label><br>
+        <input type="submit"value="Soumettre">
+    </form>
+</main>
+</body>
+</html>
